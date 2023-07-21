@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color:transparent; 
+	color:black;
+}
+
+.BODY{	
+	background-color:black;
+}
+
+.html{
+	color: black;
+	overflow-x: hidden;
+}
+
+.center{
+	max-width: 1100px;
+	margin: 0   auto;
+	padding: 0  2%;
+	display:    flex;
+	flex-wrap: wrap;
+}
+
+
+header{
+	background-color: black;
+	padding: 20px   0;
+	border-bottom: 1px  solid   rgb(200,200,200);
+}
+
+.logo{
+	color:  #00ff43;
+}
+
+.logo img{
+width: 100px;
+text-align: left;
+}
+
+.texto-logo   h2{
+	font-weight: normal;
+	font-size: 22px;
+	text-align: center;
+	color:  #00ff43;
+}
+
+.menu{
+	width: 80%;
+	text-align: right;
+	color:black;
+}
+
+.menu   a{
+	color: #00ff43;
+	font-size:  14px;
+	text-decoration: none;
+	margin-right: 50;
+}
+
+.menu   a:hover{
+	color:#007bff;
+}
+.menu   .btn-menu{
+	background-color: #0e75be;
+	display:inline-block;
+	padding: 8px 16px;
+	color:white;
+	border-radius: 40px;
+}
+
+.menu   .btn-menu:hover{
+	background-color: #0e75be;
+	color:white;
+	transform: scale(1.1,1.1);
+	filter: grayscale(0);
+}
+
+
+
+section.main{
+	background-image: url(Mk.png);
+	padding: 10%   0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.diferenciais{
+	color:white;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.main__cta{
+	color:white;
+	width: 100%;
+	
+}
+
+.btn a{
+	background-color: #00ff43;
+	color:white;
+	font-size: 20px;
+}
+
+.main__cta  p{
+	color: #00ff43;
+	font-size: 50px;
+	margin:10px 0;
+	padding-top: 10px;
+}
+.btn  button {
+	background-color: #00ff43;
+	display:inline-block;
+	padding: 8px 30px;
+	color:white;
+	border-radius: 40px;
+	font-size: 16px;
+	border: 0;
+	cursor:pointer;
+	margin: 40px;
+}
+
+.btn  button:hover{
+	transform: scale(1.1,1.1);
+	filter: grayscale(0);
+}
+
+.diferencial-single{
+	border-radius: 10px;
+	background-color: rgba(85, 84, 84, 0.411);
+	width: 23%;
+	margin-right: 2%;
+	padding:0px    20px;
+}
+
+.diferencial-single img{
+	width: 200px;
+}
+
+.diferencial-single h2{
+	color:  #00ff43;
+	margin: 10px    0;
+	font-size: 27px;
+}
+
+.diferencial-single p{
+	color: white;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+@media screen   and (max-width: 768px) {
+	.diferencial-single{
+					width:100%;
+					margin-bottom: 20px;
+	}
+
+	.conteudo-sobre p{width: 100%;  margin:20px 20px;}
+}
